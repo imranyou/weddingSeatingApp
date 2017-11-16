@@ -21,7 +21,9 @@
   "reactToolbox": {
     "include": [
       "BUTTON",
-      "DATE_PICKER"
+      "DATE_PICKER",
+      "AUTOCOMPLETE",
+      "CARD"
     ],
     "customProperties": {
       "animation-duration": "0.3s",
