@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17",
@@ -18,16 +20,19 @@
   },
   "reactToolbox": {
     "include": [
-        "BUTTON",
-        "DATE_PICKER"
+      "BUTTON",
+      "DATE_PICKER"
     ],
     "customProperties": {
-        "animation-duration": "0.3s",
-        "color-accent": "var(--palette-pink-a200)",
-        "color-accent-dark": "var(--palette-pink-700)",
-        "color-primary-contrast": "var(--color-dark-contrast)",
-        "color-accent-contrast": "var(--color-dark-contrast)"
+      "animation-duration": "0.3s",
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary-contrast": "var(--color-dark-contrast)",
+      "color-accent-contrast": "var(--color-dark-contrast)"
     },
     "output": "src/assets/react-toolbox"
-}
+  },
+  "devDependencies": {
+    "postcss-loader": "^2.0.8"
+  }
 }
