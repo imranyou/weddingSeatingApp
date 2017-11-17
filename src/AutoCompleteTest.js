@@ -234,9 +234,10 @@ export class AutoCompleteTest extends React.Component {
             />
             <CardTitle
               title=  {"Entree:    " + this.state.entre}
-              image="floorMap.png"
             />
+            <img src={require('./floormap5.png')} className="img-responsive" />
           </Card>
+
 
         </div>
       </center>
