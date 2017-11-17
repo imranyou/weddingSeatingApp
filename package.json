@@ -23,7 +23,8 @@
       "BUTTON",
       "DATE_PICKER",
       "AUTOCOMPLETE",
-      "CARD"
+      "CARD",
+      "APP_BAR"
     ],
     "customProperties": {
       "animation-duration": "0.3s",

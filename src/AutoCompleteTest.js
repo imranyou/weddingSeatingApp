@@ -1,6 +1,7 @@
 import Autocomplete from 'react-toolbox/lib/autocomplete/Autocomplete';
 import React, { Component } from 'react';
 import { Card, CardMedia, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
+import AppBar from 'react-toolbox/lib/app_bar/AppBar';
 
 const source = {
   "Hector Obazuaye,1,1,Fish" : "Hector Obazuaye",
@@ -212,6 +213,7 @@ export class AutoCompleteTest extends React.Component {
     return (
       <center>
         <div>
+        <AppBar title='Rachael & Chris'/>
         <Autocomplete
           direction="down"
           selectedPosition="below"
