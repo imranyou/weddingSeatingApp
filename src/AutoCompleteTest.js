@@ -234,6 +234,7 @@ export class AutoCompleteTest extends React.Component {
             />
             <CardTitle
               title=  {"Entree:    " + this.state.entre}
+              image="floorMap.png"
             />
           </Card>
 
