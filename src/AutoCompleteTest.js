@@ -203,9 +203,9 @@ export class AutoCompleteTest extends React.Component {
   handleChange = (value) => {
     var realValue;
     console.log(value)
-    realValue = value[0].split(";");
+    realValue = value[0].split(",");
     const latestValue = value.slice().shift();
-    this.setState({seats: realValue[0], check: source[latestValue], entre: realValue[1]});
+    this.setState({seats: realValue[2], tables: realValue[1], check: source[latestValue], entre: realValue[3]});
   };
 
   render () {
@@ -230,7 +230,7 @@ export class AutoCompleteTest extends React.Component {
               image="https://images.contentful.com/wnfy2vxzshna/1SgotGu06waAqySOkqcGUI/25795e65fd6e4ca3f7f00952d2afdf4c/x-back_chair_-_Lovers_of_Love_Photography.jpg?w=1140&h=600&fm=jpg&q=80&fl=progressive"
             />
             <CardTitle
-              title=  {"Seat#:  " + this.state.seats}
+              title=  {"TABLE # " + this.state.seats + "  & SEAT # " + this.state.tables}
             />
             <CardTitle
               title=  {"Entree:    " + this.state.entre}
